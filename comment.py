@@ -3,7 +3,7 @@ import csv
 from googleapiclient.discovery import build
 
 # 設定 YouTube API 金鑰
-API_KEY = "AIzaSyDv_xqmuOW8jtSEIblUWurwoPiybqFP5Qg"  
+#API_KEY  "安全問題拿掉"  
 youtube = build("youtube", "v3", developerKey=API_KEY)
 
 # 影片id
